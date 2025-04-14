@@ -1,0 +1,92 @@
+@font-face {
+	font-family: "Nunito";
+	src: url(/font/Nunito/Nunito-VariableFont_wght.ttf);
+	margin: 0 auto;
+}
+@font-face {
+	font-family: "Oxygen";
+	src: url(/font/Oxygen/Oxygen-Bold.ttf);
+	margin: 0 auto;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+body{
+	font-family: "Nunito";
+
+}
+.bgContainerHead{
+	background-image: url(/images/mainBg.png);
+	background-repeat: no-repeat;
+	background-size: 1440px 779px;
+	margin: 0 auto;
+	width: 1440px;
+}
+.bgColor{
+	background-color: rgba(255, 255, 255, 0.107);
+	width: 1440px;
+	height: 779px;
+}
+header{
+	
+	width: auto;
+}
+.header_block{
+	display: flex;
+	justify-content: space-between;
+	width: 1182px;
+	height: 57px;
+	margin: 0 auto 0 auto;
+	padding-top: 51px;
+}
+.logoItem{
+	display: flex;
+	align-items: center;
+	width: 227px;
+	height: 32px;
+	margin: auto 0;
+}
+.navBlock{
+	display: flex;
+	width: 407px;
+	margin: auto 0;
+}
+.navSpisok{
+	display: flex;
+}
+.itemNavLink a{
+	text-decoration: none;
+	color:white;
+	font-size: 16px;
+	margin-right: 40px;
+}
+
+.basketLink{
+	width: 18px;
+	height: 20px;
+	margin: auto 0;
+}
+/* main */
+.mainTextCenter__block{
+	display: flex;
+	flex-direction: column;
+	width: 650px;
+	height: 40px;
+	margin: 181px auto 0 auto;
+
+}
+.mainTextCenter{
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	font-weight: 700;
+}
+.TextCenter{
+	text-align: center;
+	font-size: 16px;
+	color: white;
+}
