@@ -1,0 +1,195 @@
+@media (max-width: 767px){
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	body{
+		font-family: "Nunito";
+		height: 7000px;
+	}
+	.burger-btn {
+      display: block;
+  }
+  
+  .nav_men-header {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease;
+  }
+  
+  .nav_men-header.active {
+    max-height: 500px;
+  }
+  
+  .navSpisok {
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+  }
+	.bgColor{
+		width: 390px;
+	}
+	.navBlock{
+		justify-content: end;
+		margin-right: 20px;
+	}
+	.itemNavLink a {
+		text-decoration: none;
+		color: #333;
+		font-size: 18px;
+}
+	.bgContainerHead{
+		background-image: url(/images/mainBg.png);
+		background-repeat: no-repeat;
+		background-size: 390px 779px;
+		margin: 0 auto;
+		width: 390px;
+	}
+	header{
+		width: 390px;
+	}
+	.header_block{
+		width: 390px;
+	}
+	.basketLink{
+		display: none;
+	}
+	.mainTextCenter{
+		width: 390px;
+		font-size: 45px;
+	}
+	.TextCenter{
+		width: 390px;
+	}
+	.textPersBlock{
+		display: flex;
+		flex-direction: column;
+		margin-top: 40px;
+	}
+	.PersBlockName{
+		width: 390px;
+		margin: 0 auto;
+		flex-direction: column;
+		align-items: center;
+		height: max-content;
+	}
+	.guid_block{
+		width: 390px;
+		margin-top: 40px;
+	}
+	.headerText-guid_block{
+		width: 390px;
+		height: max-content;
+		margin: 0 auto;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.ItemGuidBlock__guid_block{
+		width: 390px;
+		display: flex;
+		flex-direction: column;
+		height: max-content;
+	}
+	.itemBLock__guid_block{
+		margin: 0 0 20px 0;
+		width: 380px;
+	}
+	
+	.mainBg2{
+		width: auto;
+		height: max-content;
+		margin: 0;
+	}
+	.mainInfo__mainBg2Block{
+		width: 390px;
+		height: max-content;
+	}
+	.mainInfo__mainBg2Block{
+		flex-direction: column;
+		padding: 0;
+		width: 390px;
+		height: max-content;
+	}
+	.mainText{
+		width: 350px;
+		font-size: 20px;
+	}
+	.firstInfo_mainBg2Block{
+		text-align: center;
+		width: 350px;
+		font-size: 10px;
+		height: max-content;
+		text-align: center;
+	}
+	.secondBlockForInfo{
+		flex-direction: column;
+	}
+	.secondBlock_mainBg2Block{
+		width: 390px;
+	}
+	.secondInfoMainTetx{
+		width: 390px;
+		font-size: 20px;
+	}
+	.secondInfoTetx{
+		text-align: center;
+		width: 350px;
+		font-size: 10px;
+		height: max-content;
+		text-align: center;
+	}
+	.secondInfoMainTetx{
+		width: 390px;
+		font-size: 20px;
+	}
+	.blockNews{
+		width: 390px;
+		height: max-content;
+	}
+	.maintextBlock__news{
+		width: 390px;
+	}
+	.textBlockNews{
+		width: 390px;
+		flex-direction: column;
+		height: max-content;
+	}
+	.maintextBlock__news{
+		margin-top: 40px;
+	}
+	.MainText__news{
+		width: 390px;
+		height: max-content;
+	}
+	.btnLink{
+		margin-top: 50px;
+	}
+	.mainNewBlock{
+		margin-top: 50px;
+		width: 390px;
+		height: max-content;
+		flex-direction: column;
+	}
+	.footer-v-3{
+		display: block;
+		width: auto;
+	}
+	.footer-bottom{
+		flex-direction: column;
+		width: 390px;
+		margin: 0 auto;
+	}
+	.footer-auto-layout{
+		margin: 0 auto;
+		width: 390px;
+	}
+	.copyright{
+		width: max-content;
+	}
+}
